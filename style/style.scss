@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+$header1: 5rem;
+$header2: 4rem;
+$header3: 2.5rem;
+$header4: 1.5rem;
+$text: 1.5rem;
+// $gradient: linear-gradient(left, #38d39f, #38a4d3);
+// $bg-color: #154353;
+// $gray-txt: #2c2c2c;
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    font-size: $header1;
+}
+li,
+label,
+button,
+input,
+a{
+    font-size: $text;
+}
+h2 {
+    font-size: $header2;
+}
+h3 {
+    font-size: $header3;
+}
+h4,
+h5 {
+    font-size: $header4;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+@import "global";
